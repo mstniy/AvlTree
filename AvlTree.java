@@ -72,6 +72,7 @@ class Node {
 		}
 		else if (lmr == -2)
 		{
+			//This part is the symmetry of the lmr == 2 case.
 			if (Node.getHeight(right.right) >= Node.getHeight(right.left))
 			{
 				final Node nodeTmp = left;
